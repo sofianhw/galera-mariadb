@@ -1,0 +1,5 @@
+[mysqld]
+ssl-ca = /etc/ssl/galera/ca-cert.pem
+ssl-cert = /etc/ssl/galera/server-cert.pem
+ssl-key = /etc/ssl/galera/server-key.pem
+require-secure-transport = on
