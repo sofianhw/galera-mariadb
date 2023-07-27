@@ -1,0 +1,3 @@
+[mysqld]
+read-only = 1
+innodb-read-only = 1
